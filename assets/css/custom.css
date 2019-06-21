@@ -1,0 +1,57 @@
+body{
+    background-color: #1e1e2f;
+}
+.sidebar .logo{
+    padding : 20px 0px !important;
+    margin-top: 10px;
+  
+  }
+  .imgLogo{
+    background-image: url(/assets/img/Logotr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .sidebar .logo::after {
+      bottom: -9px;
+  }
+  .fixed-plugin .badge-azure {
+    background-color: #213575
+    }
+    .fixed-plugin .badge-azure:hover {
+      border-color: #213575;
+    }
+  .fixed-plugin .badge-azure:active {
+    background-color: #213575;
+  }
+  .form-control,
+.is-focused .form-control {
+  background-image: linear-gradient(to top, #172c6f 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+  .form-control {
+    color: #ffff;
+  }
+
+  .card,
+  .sidebar .nav li a,
+  .card-icon,
+  .card-avatar,
+  .card-header,
+  .card-stats {
+    border-radius: 0px !important;
+  }
+  .card {
+    background-color: #27293d;
+  }
+  .table>tbody>tr>td,
+  .card-title {
+      color: white;
+  }
+  #dash
+  #tabela
+  #usuario {
+      display: none;
+  }
+  label {
+    margin: 0;
+  }
